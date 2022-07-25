@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Displays the running process containing the bash, in a user-oriented format
+# shellcheck disable=SC2009
+
+ps -faux | grep "bash"
